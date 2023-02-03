@@ -97,7 +97,7 @@
             },
             {
               name: "CommemorationDay",
-              value: "恰同学少年",
+              value: "曾几何时",
               top: "40%",
               left: "11%",
               right: "",
@@ -106,7 +106,7 @@
             },
             {
               name: "AboutMe",
-              value: "关于番茄",
+              value: "关于angbox",
               top: "52%",
               left: "",
               right: "16%",
