@@ -155,7 +155,7 @@
       e["default"] = r.exports;
     },
     "25cc": function (t, e, i) {
-      t.exports = i.p + "img/home_bg.1ebcfc16.jpg";
+      t.exports = i.p + "img/home_bg.1ebcfc16.jpeg";
     },
     3433: function (t, e, i) {
       t.exports = i.p + "img/tomato.174aad27.png";
