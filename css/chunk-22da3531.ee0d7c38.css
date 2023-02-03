@@ -1,1 +1,67 @@
-.home-button{position:fixed;top:24px;left:calc(50% - 24px);z-index:999;display:flex;justify-content:center;align-items:center;width:46px;height:46px;text-align:center;border-radius:999em;border:1px solid #d6d6d6;cursor:pointer;background-color:#f5f5f5;box-shadow:0 0 10px 2px #ccc}.home-button:hover{background-color:#d6d6d6}.home-button .outer{display:inline-block;width:12px;height:12px;border-radius:50%;border:3px solid #505050}.commemoration-day{position:relative;width:100%;height:100%;background:#0f3854;background:radial-gradient(ellipse at center,#0a2e38 0,#000 70%);background-size:100%}.commemoration-day .main{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#daf6ff;text-shadow:0 0 20px #0aafe6,0 0 20px rgba(10,175,230,0);text-align:center}.commemoration-day .main .text{margin-right:-40px;letter-spacing:.1em;font-size:24px;text-align:left}.commemoration-day .main .time{font-size:80px;padding:5px 0}.commemoration-day .main .now-day{padding-top:10px;letter-spacing:.1em;font-size:24px;text-align:right}
+.home-button {
+    position: fixed;
+    top: 24px;
+    left: calc(50% - 24px);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 999em;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px 2px #ccc
+}
+
+.home-button:hover {
+    background-color: #d6d6d6
+}
+
+.home-button .outer {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid #505050
+}
+
+.commemoration-day {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center, #0a2e38 0, #000 70%);
+    background-size: 100%
+}
+
+.commemoration-day .main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+    text-align: center
+}
+
+.commemoration-day .main .text {
+    margin-right: -40px;
+    letter-spacing: .1em;
+    font-size: 24px;
+    text-align: left
+}
+
+.commemoration-day .main .time {
+    font-size: 80px;
+    padding: 5px 0
+}
+
+.commemoration-day .main .now-day {
+    padding-top: 10px;
+    letter-spacing: .1em;
+    font-size: 24px;
+    text-align: right
+}

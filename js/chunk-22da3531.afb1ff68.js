@@ -2,10 +2,10 @@
     ["chunk-22da3531"], { "00f5": function(t, e, n) { "use strict";
             n.r(e); var a = function() { var t = this,
                         e = t.$createElement,
-                        n = t._self._c || e; return n("div", { staticClass: "commemoration-day" }, [n("home-button"), n("div", { staticClass: "main" }, [n("p", { staticClass: "text" }, [t._v("我们在一起：")]), n("p", { staticClass: "time" }, [t._v(t._s(t.time))]), n("div", { staticClass: "now-day" }, [t._v("当前日期： " + t._s(t.data))])])], 1) },
+                        n = t._self._c || e; return n("div", { staticClass: "commemoration-day" }, [n("home-button"), n("div", { staticClass: "main" }, [n("p", { staticClass: "text" }, [t._v("网站已经创建了：")]), n("p", { staticClass: "time" }, [t._v(t._s(t.time))]), n("div", { staticClass: "now-day" }, [t._v("当前日期： " + t._s(t.data))])])], 1) },
                 i = [],
                 o = (n("fb6a"), n("c605")),
-                r = { data: function() { return { timerId: null, week: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"], time: "", data: "", nowDate: new Date, oldDate: new Date("2021/09/13 03:00") } }, components: { HomeButton: o["a"] }, created: function() { this.updateTime(), this.timerId = setInterval(this.updateTime, 1e3) }, methods: { updateTime: function() { var t = new Date,
+                r = { data: function() { return { timerId: null, week: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"], time: "", data: "", nowDate: new Date, oldDate: new Date("2023/02/02 20:00") } }, components: { HomeButton: o["a"] }, created: function() { this.updateTime(), this.timerId = setInterval(this.updateTime, 1e3) }, methods: { updateTime: function() { var t = new Date,
                                 e = (t.getTime() - this.oldDate.getTime()) / 1e3;
                             this.data = this.getNowDate(t), this.time = this.getCommemoration(e) }, zeroPadding: function(t, e) { for (var n = "", a = 0; a < e; a++) n += "0"; return (n + t).slice(-e) }, getNowDate: function(t) { return this.zeroPadding(t.getFullYear(), 4) + "-" + this.zeroPadding(t.getMonth() + 1) + "-" + this.zeroPadding(t.getDate(), 2) + " " + this.week[t.getDay()] }, getCommemoration: function(t) { var e = parseInt(t / 86400),
                                 n = t - 24 * e * 60 * 60,
